@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abinash Sonowal — Backend & Java Engineer</title>
+  <meta name="description" content="Abinash Sonowal — backend & Java engineer at Datametica (IIT Guwahati CSE '25). Resume, projects and code, browsable like an IDE.">
+  <meta property="og:title" content="Abinash Sonowal — Backend & Java Engineer">
+  <meta property="og:description" content="Resume, projects and code, browsable like an IDE.">
+  <meta name="theme-color" content="#2b2d30">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%233574f0'/%3E%3Ctext x='16' y='21.5' font-family='Arial' font-weight='700' font-size='14' fill='white' text-anchor='middle'%3EAS%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css?v=4">
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/groovy.min.js"></script>
+</head>
+<body>
+  <div class="ide" id="ide">
+    <header class="topbar">
+      <button class="icon-btn only-mobile" id="drawerBtn" aria-label="Show project files" aria-expanded="false">☰</button>
+      <span class="badge" id="badge">AS</span>
+      <span class="project-name" id="projectName">abinash-sonowal</span>
+      <button class="search-btn" id="searchBtn" aria-label="Search files and notes">
+        <span class="search-ico" aria-hidden="true">⌕</span>
+        <span class="search-label">Search files &amp; notes</span>
+        <kbd class="mono">Ctrl K</kbd>
+      </button>
+    </header>
+
+    <div class="body">
+      <nav class="tree" id="tree" aria-label="Project files">
+        <div class="tree-title">Project</div>
+        <ul class="tree-root mono" id="treeRoot" role="tree"></ul>
+      </nav>
+      <div class="scrim only-mobile" id="scrim" hidden></div>
+
+      <main class="main">
+        <div class="tabs" id="tabs" role="tablist"></div>
+        <div class="editor" id="editor"></div>
+      </main>
+    </div>
+
+    <footer class="statusbar">
+      <span class="crumb" id="crumb"></span>
+      <span class="status-right" id="statusRight"></span>
+    </footer>
+  </div>
+
+  <div class="search-modal" id="searchModal" hidden>
+    <div class="search-box" role="dialog" aria-modal="true" aria-label="Search files">
+      <input id="searchInput" class="mono" type="text" placeholder="Type a file or topic, e.g. observer, README, solid" autocomplete="off" spellcheck="false">
+      <ul id="searchResults" class="search-results mono" role="listbox"></ul>
+      <div class="search-hint" id="searchHint">↑↓ to move · Enter to open · Esc to close</div>
+    </div>
+  </div>
+
+  <script type="module" src="assets/app.js?v=4"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+  "githubUser": "abinashrasonowal",
+  "projectName": "abinash-sonowal",
+  "initials": "AS",
+  "status": "Open to opportunities",
+
+  "revisionRepo": "Learning",
+  "hiddenRepos": ["abinashrasonowal.github.io"],
+  "showForks": false,
+  "hiddenPaths": [
+    "Learning/CleanCode/CleanCode.pdf",
+    "Learning/ThePragmaticProgrammer/ThePragmaticProgrammer20thAnniversaryEdition.pdf"
+  ],
+  "fallbackRepos": [
+    "Learning", "whitejack", "HealthTracker", "SheetsToSQL", "google-shopping",
+    "OAPV", "Lightweight-Deblur", "Multi-Language_Online_Compile", "Dry-Bean-Classifier"
+  ],
+
+  "profile": {
+    "name": "Abinash Sonowal",
+    "headline": "Backend & Java engineer · Datametica Birds, Pune",
+    "credentials": ["IIT Guwahati CSE '25", "ex-Samsung R&D", "Rising Star Award 2026", "Codeforces Specialist (max 1563)"],
+    "summary": "I build backend systems in Java, Kotlin and Spring Boot — BI-to-LookML compilers on ANTLR and Apache Calcite, multithreaded LLM agents, and a live multiplayer card-game platform with an actor-per-room engine. I care about clean design, concurrency done right, and tests that actually catch things.",
+    "links": [
+      { "label": "Resume", "href": "resume.pdf", "download": true, "primary": true },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/abinash-sonowal/" },
+      { "label": "GitHub", "href": "https://github.com/abinashrasonowal" },
+      { "label": "Email", "href": "mailto:abinashsonowal2002@gmail.com" }
+    ],
+    "featured": [
+      {
+        "title": "whitejack",
+        "text": "Multiplayer Poker, Hearts & Gin Rummy. Java 17 / Spring Boot WebSockets, actor-per-room engine, LLM-powered bots, 169 tests.",
+        "repo": "whitejack",
+        "demo": "https://whitejack.games/"
+      },
+      {
+        "title": "BI → LookML compilers",
+        "text": "Tableau & Power BI to LookML in Java/Groovy (~17K lines): ANTLR grammars, Visitor-based translation into Calcite plans, Neo4j lineage, 150+ Spock tests. Work project at Datametica.",
+        "tag": "Work"
+      },
+      {
+        "title": "Lightweight-Deblur",
+        "text": "Lightweight UNet in PyTorch for on-device image deblurring, ported to the Galaxy S24 Ultra during my Samsung R&D internship.",
+        "repo": "Lightweight-Deblur"
+      }
+    ],
+    "experience": [
+      {
+        "role": "Member of Technical Staff — Product Team",
+        "org": "Datametica Birds, Pune",
+        "when": "Jun 2025 – Present",
+        "points": [
+          "Hardened the BI report pipeline: end-to-end success from 84 → 487 of 672 reports by root-causing failures and fixing two core transformation modules.",
+          "Built the Raven BI service end to end: Spring Boot REST API (12 endpoints) on PostgreSQL with a React/TypeScript UI.",
+          "Built Tableau and Power BI → LookML compilers (ANTLR, Apache Calcite, Neo4j lineage); migrated 52 enterprise workbooks to 496 LookML artifacts.",
+          "Built 3 Kotlin/LangChain4j agents that fan out work over a thread pool with CompletableFuture, and an LLM merge-request review agent for GitLab CI (200+ tests)."
+        ]
+      },
+      {
+        "role": "Research & Developer Intern — Visual Intelligence",
+        "org": "Samsung R&D Institute, Bangalore",
+        "when": "May 2024 – Jul 2024",
+        "points": [
+          "Designed and optimized a lightweight UNet for on-device deblurring and ported it to the Galaxy S24 Ultra for real-time validation."
+        ]
+      }
+    ],
+    "education": "B.Tech, Computer Science & Engineering — IIT Guwahati (2021 – 2025)",
+    "skills": {
+      "Languages": ["Java", "Kotlin", "Python", "Groovy", "C/C++", "TypeScript", "JavaScript"],
+      "Backend": ["Spring Boot", "REST", "WebSockets", "FastAPI", "Docker", "Gradle", "GitHub Actions", "GitLab CI"],
+      "Core": ["OOP", "Design Patterns", "Multithreading & Concurrency"],
+      "Data & BI": ["PostgreSQL", "BigQuery", "Neo4j", "Apache Calcite", "ANTLR", "Looker/LookML", "Power BI", "Tableau"],
+      "AI": ["LangChain4j agents", "OpenRouter", "PyTorch"]
+    },
+    "achievements": [
+      "Codeforces Specialist, max rating 1563 — global rank 272 of 34,200 in Round 968",
+      "Rising Star Award, Datametica (2026)"
+    ]
+  },
+
+  "contactMarkdown": "# Contact\n\nThe best way to reach me is email.\n\n- **Email:** [abinashsonowal2002@gmail.com](mailto:abinashsonowal2002@gmail.com)\n- **LinkedIn:** [linkedin.com/in/abinash-sonowal](https://www.linkedin.com/in/abinash-sonowal/)\n- **GitHub:** [github.com/abinashrasonowal](https://github.com/abinashrasonowal)\n- **Codeforces:** [AvinSkye](https://codeforces.com/profile/AvinSkye)\n\nBased in Pune, India · open to backend / Java roles."
+}
