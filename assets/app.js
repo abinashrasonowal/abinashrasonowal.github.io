@@ -419,7 +419,7 @@ function updateStatus(sitePath) {
   const crumb = $('#crumb');
   crumb.replaceChildren(CFG.projectName, ...(sitePath ? sitePath.split('/') : []).flatMap((p) => [h('span', { class: 'sep', text: '›' }), p]));
   const lang = LANG_LABEL[LANG[extOf(sitePath)]];
-  $('#statusRight').replaceChildren(...(lang ? [lang, '   '] : []), h('span', { class: 'ok', text: '● ' }), CFG.status);
+  $('#statusRight').replaceChildren(...(lang ? [lang] : []), ...(CFG.status ? ['   ', h('span', { class: 'ok', text: '● ' }), CFG.status] : []));
 }
 
 /* ---------------- renderers ---------------- */

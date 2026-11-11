@@ -2,7 +2,7 @@
   "githubUser": "abinashrasonowal",
   "projectName": "abinash-sonowal",
   "initials": "AS",
-  "status": "Open to opportunities",
+  "status": "",
 
   "revisionRepo": "Learning",
   "hiddenRepos": ["abinashrasonowal.github.io"],
@@ -80,5 +80,5 @@
     ]
   },
 
-  "contactMarkdown": "# Contact\n\nThe best way to reach me is email.\n\n- **Email:** [abinashsonowal2002@gmail.com](mailto:abinashsonowal2002@gmail.com)\n- **LinkedIn:** [linkedin.com/in/abinash-sonowal](https://www.linkedin.com/in/abinash-sonowal/)\n- **GitHub:** [github.com/abinashrasonowal](https://github.com/abinashrasonowal)\n- **Codeforces:** [AvinSkye](https://codeforces.com/profile/AvinSkye)\n\nBased in Pune, India · open to backend / Java roles."
+  "contactMarkdown": "# Contact\n\nThe best way to reach me is email.\n\n- **Email:** [abinashsonowal2002@gmail.com](mailto:abinashsonowal2002@gmail.com)\n- **LinkedIn:** [linkedin.com/in/abinash-sonowal](https://www.linkedin.com/in/abinash-sonowal/)\n- **GitHub:** [github.com/abinashrasonowal](https://github.com/abinashrasonowal)\n- **Codeforces:** [AvinSkye](https://codeforces.com/profile/AvinSkye)\n\nBased in Pune, India."
 }
